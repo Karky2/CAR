@@ -91,10 +91,10 @@ const CarSellAppForm = () => {
 
   return (
     <div className='body'>
-    <img src="./mustang.jpeg" alt='car'></img>
+    {/* <img src="./mustang.jpeg" alt='car'></img> */}
     <form onSubmit={handleSubmit}>
      
-      <h2>WELCOME ! ! !</h2>
+      <h2>WELCOME TO THE CAR SELL APP</h2>
       <div>
         <label>
           Car Make:

@@ -3,18 +3,24 @@ form{
     padding: 20px;
     /* margin: 20px; */
     width: 720px;
-    height: 790px;
+    height: 900px;
     position: absolute;
     left: 30%;
+    border-radius: 10px;
+    background-color: rgb(154, 122, 122);
+
 }
 input[type = "text"]{
     width: 500px;
     padding: 10px;
     border-radius: 7px;
+    border: none;
+    outline: none;
 }
 div{
     padding: 15px;
 }
+
 label{
   font-size: 20px;
 }
@@ -36,11 +42,15 @@ input[type = "number"]{
     width: 500px;
     padding: 10px;
     border-radius: 7px;
+    border:none;
+    outline: none;
 }
 input[type = "date"]{
     width: 500px;
     padding: 10px;
     border-radius: 7px;
+    border: none;
+    outline: none;
 }
 form input [type = "number"]:focus, 
 input [type = "text"]:focus{
